@@ -1,1 +1,25 @@
 @import "./util.css";
+@import "./home.css";
+
+/* default css */
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--default-font-size);
+}
+
+body {
+  font-family: "IBM Plex Serif", serif;
+  min-height: 100vh;
+}
+
+.w-1206 {
+  width: 1206px;
+}
